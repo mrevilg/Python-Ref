@@ -2,6 +2,7 @@
 Python code base for individual and ongoing projects
 
 Marketing Slogan Randomizer
+
     import random
 
     verbs = ['Leverage', 'Sync', 'Target', 'Gamify', 'Offline', 'Crowd-sourced',
