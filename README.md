@@ -18,7 +18,7 @@ Python code base for individual and ongoing projects
 | and | as | assert |break |class |continue |def |del |
 | elif | else | except |global |is |or |try |break |
 | finally | for | if |lambda |pass |while |import |nonlocal |
-|raise |with |
+|raise |with |in | not | return | yeild|
 
 
 
