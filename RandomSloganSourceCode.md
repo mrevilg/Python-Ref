@@ -1,19 +1,19 @@
 
-import random
+         import random
 
-verbs = ['Leverage', 'Sync', 'Target', 'Gamify', 'Offline', 'Crowd-sourced',
-         '24/7', 'Lean in', '30,000 foot']
+         verbs = ['Leverage', 'Sync', 'Target', 'Gamify', 'Offline', 'Crowd-sourced',
+                  '24/7', 'Lean in', '30,000 foot']
 
-adjectives = ['A/B Tested', 'Fremium', 'Hyperlocal', 'Siloed', 'B-to-B',
-             'Oriented', 'Cloud-based', 'API based']
+         adjectives = ['A/B Tested', 'Fremium', 'Hyperlocal', 'Siloed', 'B-to-B',
+                      'Oriented', 'Cloud-based', 'API based']
 
-nouns = ['Early Adopter', 'Low-hanging fruit', 'Pipeline', 'Splash Page',
-         'Porductivity', 'Process', 'Tipping Point', 'Paradigm']
+         nouns = ['Early Adopter', 'Low-hanging fruit', 'Pipeline', 'Splash Page',
+                  'Porductivity', 'Process', 'Tipping Point', 'Paradigm']
 
-verb = random.choice(verbs)
-adjective = random.choice(adjectives)
-noun = random.choice(nouns)
+         verb = random.choice(verbs)
+         adjective = random.choice(adjectives)
+         noun = random.choice(nouns)
 
-phrase = verb + ' ' + adjective + ' ' + noun
+         phrase = verb + ' ' + adjective + ' ' + noun
 
-print (phrase)
+         print (phrase)
