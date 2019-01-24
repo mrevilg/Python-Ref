@@ -28,4 +28,6 @@ input function will always return a string unless: int('*prompt*') * 7 etc to ge
 ### *Slogan Randomizer*
 This is a simple syntax, which when run through multiple instances, creates a randomized sentance on each iteration.
 
+### *Dog Age Calculator*
+Simple code to prompt and calculate the age of your dog in human years 
   
