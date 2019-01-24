@@ -1,4 +1,6 @@
 
+
+```python
          import random
 
          verbs = ['Leverage', 'Sync', 'Target', 'Gamify', 'Offline', 'Crowd-sourced',
@@ -17,3 +19,4 @@
          phrase = verb + ' ' + adjective + ' ' + noun
 
          print (phrase)
+```
