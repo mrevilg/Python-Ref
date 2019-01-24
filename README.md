@@ -9,6 +9,8 @@ Python code base for individual and ongoing projects
 | * / %  | Multiply, Divide, Modulus or Remainder |
 | + -  | Add, Minus  |
 
+input function will always return a string unless: int('*prompt*') * 7 etc to generate total, not string.
+
 ##### *Variables*
 - Start with a letter or underscore
 - Avoid the following keywords
