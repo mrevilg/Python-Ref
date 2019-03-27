@@ -22,7 +22,9 @@ input function will always return a string unless: int('*prompt*') * 7 etc to ge
 | finally | for | if |lambda |pass |while |import |nonlocal |
 |raise |with |in | not | return | yeild|
 
-
+##### *Methods*
+###### *String Methods*
+- len(), lower(), upper(), str(),
 
 ## File Explanation
 ### *Slogan Randomizer*
