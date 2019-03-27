@@ -24,8 +24,13 @@ input function will always return a string unless: int('*prompt*') * 7 etc to ge
 
 ### *Methods*
 #### *String Methods*
-- len(), str(), lower(), upper(),
-- len or str (variablename), variablename.lower or upper() 
+- len(), str(), 
+- len or str (variablename), 
+
+
+#### *'dot' Methods*
+- lower(), upper(),
+- variablename.lower(), variablename.upper() 
 
 ## File Explanation
 ### *Slogan Randomizer*
