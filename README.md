@@ -8,6 +8,11 @@ Python code base for individual and ongoing projects
 | -X  | Negative number  |
 | * / %  | Multiply, Divide, Modulus or Remainder |
 | + -  | Add, Minus  |
+| *Boolean* | ------------- |
+| not  | First  |
+| and | Next  |
+| or  | Last  |
+
 
 input function will always return a string unless: int('*prompt*') * 7 etc to generate total, not string.
 
