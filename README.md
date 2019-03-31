@@ -13,7 +13,8 @@ Python code base for individual and ongoing projects
 | and | Next  |
 | or  | Last  |
 
-
+ "#" for a comment line
+ 
 input function will always return a string unless: int('*prompt*') * 7 etc to generate total, not string.
 
 ##### *Variables*
@@ -27,15 +28,35 @@ input function will always return a string unless: int('*prompt*') * 7 etc to ge
 | finally | for | if |lambda |pass |while |import |nonlocal |
 |raise |with |in | not | return | yeild|
 
-### *Methods*
+### *Methods/Functions*
 #### *String Methods*
+- len or str (variablename), etc...
 - len(), str(), 
-- len or str (variablename), 
-
 
 #### *'dot' Methods*
-- lower(), upper(),
-- variablename.lower(), variablename.upper() 
+- variablename.lower(), variablename.upper() etc...
+- .lower(), .upper(),
+- .title() ...Cap first letter of each word in string
+
+#### *'whitespacing' Methods*
+- print("\tPython") tabspace then string
+- print("\nPython") carriage Rtn then string
+- variablename.rstrip() temp trim on right of var
+- variablename.lstrip() temp trim on left of var
+- variablename.strip() temp trim on left/right of var
+- variablename = variablename.strip() perm trim on left/right of var
+
+When using the result of an int (as a standalone variable) within the result of a string (concatenation of int+str) you must set how the int is to be used int/str e.g. :
+  ```python
+    age = 23
+    print "Happy " + str(age) + "rd Birthday!"
+  ```
+
+#### *List Methods and Modifications*
+  ```python
+  bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+  print bicycles
+  ```
 
 ## File Explanation
 ### *Slogan Randomizer*
