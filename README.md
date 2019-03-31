@@ -53,6 +53,7 @@ When using the result of an int (as a standalone variable) within the result of 
   ```
 
 #### *List Methods and Modifications*
+Python lists are 'indexed' - they start at 0, using [-1] returns last item
   ```python
   bicycles = ['trek', 'cannondale', 'redline', 'specialized']
   print bicycles
