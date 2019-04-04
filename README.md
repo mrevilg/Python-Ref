@@ -61,7 +61,7 @@ Python lists are 'indexed' - they start at 0, using [-1] returns last item
   print bicycles
   ```
 - variable name[x] = new_content This will replace the index 'x' with the new value
-- .append('NEWVALUE') ...adds new value to end of list, or can be used to 'overflow'
+- .append('newvalue') ...adds new value to end of list, or can be used to 'overflow'
 - .insert(index, 'value') ... adds the new value at the noted index
 - del variablename[x] = removal of that index's value
 new_variablename = variablename.pop(x)... takes last index value and adds to new variable, or use 'x' index, Pop REMOVES values
