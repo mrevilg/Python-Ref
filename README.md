@@ -64,7 +64,9 @@ Python lists are 'indexed' - they start at 0, using [-1] returns last item
 - .insert(index, 'value') ... adds the new value at the noted index
 - del variablename[x] = removal of that index's value
 new_variablename = variablename.pop(x)... takes last index value and adds to new variable, or use 'x' index. Pop REMOVES values
+- variablename.remove('actualvalue')... will search and remove noted value, first instance. Need loop for multiple.
 
+- variable.sort()... permanently sorts the list, can do str or int, must define to concatenate mixed
 
 ## File Explanation
 ### *Slogan Randomizer*
