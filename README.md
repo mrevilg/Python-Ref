@@ -16,6 +16,7 @@ Python code base for individual and ongoing projects
  "#" for a comment line
  
 input function will always return a string unless: int('*prompt*') * 7 etc to generate total, not string.
+len() is a counting function, not an indexing 
 
 ##### *Variables*
 - Start with a letter or underscore
@@ -31,7 +32,7 @@ input function will always return a string unless: int('*prompt*') * 7 etc to ge
 ### *Methods/Functions*
 #### *String Methods*
 - len or str (variablename), etc...
-- len(), str(), 
+- len(), str(),
 
 #### *'dot' Methods*
 - variablename.lower(), variablename.upper() etc...
@@ -63,10 +64,12 @@ Python lists are 'indexed' - they start at 0, using [-1] returns last item
 - .append('NEWVALUE') ...adds new value to end of list, or can be used to 'overflow'
 - .insert(index, 'value') ... adds the new value at the noted index
 - del variablename[x] = removal of that index's value
-new_variablename = variablename.pop(x)... takes last index value and adds to new variable, or use 'x' index. Pop REMOVES values
+new_variablename = variablename.pop(x)... takes last index value and adds to new variable, or use 'x' index, Pop REMOVES values
 - variablename.remove('actualvalue')... will search and remove noted value, first instance. Need loop for multiple.
-
 - variable.sort()... permanently sorts the list, can do str or int, must define to concatenate mixed
+- variable.sort(reverse=True)... perm reverse
+- sorted(variablename)... temp sorting of list variable, can accept reverse=True argument
+- variablename.reverse()... reverses the list as-is, perm.
 
 ## File Explanation
 ### *Slogan Randomizer*
