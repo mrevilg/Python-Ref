@@ -38,6 +38,7 @@ input function will always return a string unless: int('*prompt*') * 7 etc to ge
 - .lower(), .upper(),
 - .title() ...Cap first letter of each word in string
 
+
 #### *'whitespacing' Methods*
 - print("\tPython") tabspace then string
 - print("\nPython") carriage Rtn then string
@@ -58,6 +59,12 @@ Python lists are 'indexed' - they start at 0, using [-1] returns last item
   bicycles = ['trek', 'cannondale', 'redline', 'specialized']
   print bicycles
   ```
+- variable name[x] = new_content This will replace the index 'x' with the new value
+- .append('NEWVALUE') ...adds new value to end of list, or can be used to 'overflow'
+- .insert(index, 'value') ... adds the new value at the noted index
+- del variablename[x] = removal of that index's value
+new_variablename = variablename.pop(x)... takes last index value and adds to new variable, or use 'x' index. Pop REMOVES values
+
 
 ## File Explanation
 ### *Slogan Randomizer*
