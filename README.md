@@ -15,7 +15,10 @@ Python code base for individual and ongoing projects
 
  "#" for a comment line
  
+ "\n" is a string, needs ''/""
+ 
 input function will always return a string unless: int('*prompt*') * 7 etc to generate total, not string.
+
 len() is a counting function, not an indexing 
 
 ##### *Variables*
@@ -70,6 +73,29 @@ new_variablename = variablename.pop(x)... takes last index value and adds to new
 - variable.sort(reverse=True)... perm reverse
 - sorted(variablename)... temp sorting of list variable, can accept reverse=True argument
 - variablename.reverse()... reverses the list as-is, perm.
+
+#### *Loops*
+ ```python
+    variables = ['var_1', 'var_2', 'var_3',]
+    for variable in variables:
+        print(variable)
+  ```
+- Colon and subsequent line indentation associate that indented line *with the loop*
+ ```python
+    for value in range (1,5):
+        print(value)
+ ```
+- range (x,y)... gives the tone stpes between each number
+- variablename = list(range(x,y))... creates a list of numbers within the x/y range
+- variablename = list(range(x,y,z))... x is start of range, y is end of range, z is step
+```python
+    squares = []
+    for value in range (1,11):
+        squares.append(value**2)
+        
+    print(squares)
+ ```
+ [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
 ## File Explanation
 ### *Slogan Randomizer*
