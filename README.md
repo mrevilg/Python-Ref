@@ -109,7 +109,12 @@ new_variablename = variablename.pop(x)... takes last index value and adds to new
     squares = [value**2 for value in range(1,11)]
     print(squares)
  ```
+Slicing a list variablename = [1,2,3,4,5] print(variablename[x:y])... would print those index values in that range
+- If you used [x,null], then it would return all index values from 'x' onward.
+- If you used [-x:null], then it would return all values from the end of thist, per the number given.
 
+
+         
 
 ## File Explanation
 ### *Slogan Randomizer*
