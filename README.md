@@ -106,7 +106,7 @@ new_variablename = variablename.pop(x)... takes last index value and adds to new
  ```
 *List comprehensions* are an embedded syntax in the list itself eg:
  ```python
-    squares = value**2 for value in range(1,11)]
+    squares = [value**2 for value in range(1,11)]
     print(squares)
  ```
 
