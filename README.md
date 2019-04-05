@@ -111,7 +111,7 @@ new_variablename = variablename.pop(x)... takes last index value and adds to new
  ```
 Slicing a list variablename = [1,2,3,4,5] print(variablename[x:y])... would print those index values in that range
 - If you used [x,null], then it would return all index values from 'x' onward.
-- If you used [-x:null], then it would return all values from the end of thist, per the number given.
+- If you used [-x:null], then it would return all values from the end of the list, per the number given.
 
 
          
