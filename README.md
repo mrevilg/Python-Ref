@@ -30,7 +30,7 @@ len() is a counting function, not an indexing
 | and | as | assert |break |class |continue |def |del |
 | elif | else | except |global |is |or |try |break |
 | finally | for | if |lambda |pass |while |import |nonlocal |
-|raise |with |in | not | return | yeild|
+|raise |with |in | not | return | yield|
 
 ### *Methods/Functions*
 #### *String Methods*
@@ -74,7 +74,7 @@ new_variablename = variablename.pop(x)... takes last index value and adds to new
 - sorted(variablename)... temp sorting of list variable, can accept reverse=True argument
 - variablename.reverse()... reverses the list as-is, perm.
 
-#### *Loops*
+#### *Lists and Loops*
  ```python
     variables = ['var_1', 'var_2', 'var_3',]
     for variable in variables:
@@ -96,6 +96,20 @@ new_variablename = variablename.pop(x)... takes last index value and adds to new
     print(squares)
  ```
  [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+ 
+ - If we use the now squares variable, min/max/sum are 1/100/385 respectivley 
+ ```python
+    squares = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+    print(min(squares))
+    print(max(squares))
+    print(sum(squares))
+ ```
+*List comprehensions* are an embedded syntax in the list itself eg:
+ ```python
+    squares = value**2 for value in range(1,11)]
+    print(squares)
+ ```
+
 
 ## File Explanation
 ### *Slogan Randomizer*
