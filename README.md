@@ -21,7 +21,15 @@ input function will always return a string unless: int('*prompt*') * 7 etc to ge
 
 len() is a counting function, not an indexing 
 
-##### *Variables*
+## Style Best Practices
+### PEP 8 Reccomendations
+#### Indentation - 4 spaces, not 4 tabs
+#### Line Length - 79 Char, 72 Char for Comments
+#### Blank Lines - to indicate blocks of code visually
+
+##
+
+#### *Variables*
 - Start with a letter or underscore
 - Avoid the following keywords
 
@@ -56,7 +64,7 @@ When using the result of an int (as a standalone variable) within the result of 
     age = 23
     print "Happy " + str(age) + "rd Birthday!"
   ```
-
+##
 #### *List Methods and Modifications*
 Python lists are 'indexed' - they start at 0, using [-1] returns last item
   ```python
@@ -146,8 +154,11 @@ Immutable lists are called *Tuples*. This means that once defined, it cannot be 
     for dimension in dimensions:
         print(dimension)    
  ```
+##
+### IF Statements
 
 
+##
 ## File Explanation
 ### *Slogan Randomizer*
 This is a simple syntax, which when run through multiple instances, creates a randomized sentance on each iteration.
