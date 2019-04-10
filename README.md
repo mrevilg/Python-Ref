@@ -120,8 +120,8 @@ Looping through a Slice,
         print(word.title())    
  ```
  - As it is [:3]... will STOP the list after the FIRST 3 values
- - if it were [:-3]... it would stop the list 3 indexes fomr the END
- - if it were [3:]... it would skip the inital 3 values at the START of the list
+ - if it were [:-3]... would STOP the list 3 indexes from the END
+ - if it were [3:]... it would START the list 3 values in from the START of the list
  - if it were [-3:]... it would START the list from 3 values FROM THE END of the list
  - [*index value at the START of list* : *index value for the STOP of list*] 
  
@@ -131,7 +131,22 @@ Looping through a Slice,
     for word in words[::3]:
         print(word.title())    
  ```        
-Immutable lists are called *Tuples*. This means that once define it cannot be changed. Tuples are defined with (BRACKETS!!!)
+Immutable lists are called *Tuples*. This means that once defined, it cannot be changed. Tuples are defined with (BRACKETS & COMMAS!!!), but called with Sqr brackets [] like with a list using the desired indiex number. Tuples can be redefined later in code.
+```python
+    dimensions = (200, 50)
+    print(dimensions[0])
+    print(dimensions[1])
+
+    print("\nOriginal Dimensions : ")
+    for dimension in dimensions:
+        print(dimension)
+
+    dimensions = (400, 100)
+    print("\nModified Dimensions : ")
+    for dimension in dimensions:
+        print(dimension)    
+ ```
+
 
 ## File Explanation
 ### *Slogan Randomizer*
