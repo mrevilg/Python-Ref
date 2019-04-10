@@ -15,7 +15,7 @@ Python code base for individual and ongoing projects
 
  "#" for a comment line
  
- "\n" is a string, needs ''/""
+ "\n" is a string, needs '' or ""
  
 input function will always return a string unless: int('*prompt*') * 7 etc to generate total, not string.
 
