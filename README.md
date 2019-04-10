@@ -113,8 +113,25 @@ Slicing a list variablename = [1,2,3,4,5] print(variablename[x:y])... would prin
 - If you used [x,null], then it would return all index values from 'x' onward.
 - If you used [-x:null], then it would return all values from the end of the list, per the number given.
 
-
-         
+Looping through a Slice, 
+```python
+    words = ['murray', 'john', 'paul', 'ringo', 'george']
+    for word in words[:3]:
+        print(word.title())    
+ ```
+ - As it is [:3]... will STOP the list after the FIRST 3 values
+ - if it were [:-3]... it would stop the list 3 indexes fomr the END
+ - if it were [3:]... it would skip the inital 3 values at the START of the list
+ - if it were [-3:]... it would START the list from 3 values FROM THE END of the list
+ - [*index value at the START of list* : *index value for the STOP of list*] 
+ 
+ An additional colon i.e. [::] would be Start/Stop/STEP. Steps are counted form one index to the next, not the index themselves.
+ ```python
+    words = ['murray', 'john', 'paul', 'ringo', 'george', 'alan', 'robert', 'diana']
+    for word in words[::3]:
+        print(word.title())    
+ ```        
+Immutable lists are called *Tuples*. This means that once define it cannot be changed. Tuples are defined with (BRACKETS!!!)
 
 ## File Explanation
 ### *Slogan Randomizer*
