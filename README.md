@@ -169,7 +169,7 @@ In short,  if *conditional_test*:
              print (car.title())
  ```
 - If you include 'or' and 'and' as keywords you can concatenate variable names ()or/and().
-#### IF Else Statements
+#### IF Else (chain & blocks) Statements
  ```python
       age = 17
       if age >= 18:
