@@ -22,7 +22,7 @@ input function will always return a string unless: int('*prompt*') * 7 etc to ge
 len() is a counting function, not an indexing 
 
 ## Style Best Practices
-### PEP 8 Reccomendations
+### PEP 8 Recommendations
 #### Indentation - 4 spaces, not 4 tabs
 #### Line Length - 79 Char, 72 Char for Comments
 #### Blank Lines - to indicate blocks of code visually
@@ -156,6 +156,29 @@ Immutable lists are called *Tuples*. This means that once defined, it cannot be 
  ```
 ##
 ### IF Statements
+
+In short,  if *conditional_test*:
+                   *do something*
+ ```python
+     cars = ['audi', 'bmw', 'jeep', 'jaguar']
+
+     for car in cars:
+         if car == 'bmw':
+             print (car.upper())
+         else:
+             print (car.title())
+ ```
+- If you include 'or' and 'and' as keywords you can concatenate variable names ()or/and().
+#### IF Else Statements
+ ```python
+      age = 17
+      if age >= 18:
+          print("You are old enough to vote!")
+          print("Have you registered to vote yet?")
+      else:
+          print("Sorry, you are to young to vote!")
+          print("Be sure to register to vote when you turn 18!")
+ ```
 
 
 ##
