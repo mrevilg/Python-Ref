@@ -179,8 +179,30 @@ In short,  if *conditional_test*:
           print("Sorry, you are to young to vote!")
           print("Be sure to register to vote when you turn 18!")
  ```
+- elif = if/elif/else will break out at first true statement. For mutiple True requierments use multiple IF
+```python
+      age = 12
+        if age < 4:
+            print ("Your admisson cost is $0!")
+        elif age < 18:
+            print("Your admission cost is $5!")
+        else:
+            print("Your admission costs $10!")
 
+        age = 65
 
+        if age < 4:
+            price = 0
+        elif age < 18:
+            price = 5
+        elif age < 65:
+            price = 10
+        else:
+            price = 5
+
+        print ("Your admission is $" + str(price) + "!")
+ ```
+ 
 ##
 ## File Explanation
 ### *Slogan Randomizer*
