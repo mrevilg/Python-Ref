@@ -203,6 +203,10 @@ In short,  if *conditional_test*:
         print ("Your admission is $" + str(price) + "!")
  ```
  
+ #### Dictionaries - Key-Value pairs
+ variablename = {'key': 'value',}
+ 
+ 
 ##
 ## File Explanation
 ### *Slogan Randomizer*
