@@ -206,6 +206,13 @@ In short,  if *conditional_test*:
  #### Dictionaries - Key-Value pairs
  variablename = {'key': 'value',}
  
+ ```python
+    sky_0 = {'color': 'blue'}
+    print(sky_0['color'])
+    
+    >>>blue
+ ```
+ 
  
 ##
 ## File Explanation
