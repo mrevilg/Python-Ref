@@ -212,7 +212,7 @@ In short,  if *conditional_test*:
     
     >>>blue
  ```
- 
+ You can start with an empty dictionary {}, and add dictionaryname['key'] = 'value'. Value can be modified by restating/redeclaring them.
  
 ##
 ## File Explanation
