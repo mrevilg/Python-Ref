@@ -228,9 +228,29 @@ In short,  if *conditional_test*:
      
   >>>{'color': 'green', 'points': 10}
   >>>{'color': 'blue', 'points': 7}
-  >>>{'color': 'blue', 'points': 7, 'x_position': 0, 'y_position': 25}
- 
+  >>>{'color': 'blue', 'points': 7, 'x_position': 0, 'y_position': 25} 
  ```
+ - To remove a value use the del keyword like so: del DictName['key']
+ - To iterate/loop through a dictionary, specify the: key, value and .items()
+ ```python
+     favorite_languages = {
+    'stephen':'python',
+    'jenn':'php',
+    'kevin':'c#',
+    'fred':'haskel',
+    }
+
+     print(favorite_languages['kevin'])
+
+     for name, language in favorite_languages.items():
+         if language == 'php':
+             print('\nName : ' + name.title())
+             print('\nLanguage : ' + language.upper())
+         else:
+             print('\nName : ' + name.title())
+             print('\nLanguage : ' + language.title())
+ ```
+ 
  
 ##
 ## File Explanation
