@@ -232,6 +232,8 @@ In short,  if *conditional_test*:
  ```
  - To remove a value use the del keyword like so: del DictName['key']
  - To iterate/loop through a dictionary, specify the: key, value and .items()
+ - .keys can also be used on the DictName to loop through the keys, but this action is standard Dict Loop.
+ - Also using .keys or .values, calling out a 'key' will allow specific actions in a loop, including if'key'not in etc.
  ```python
      favorite_languages = {
     'stephen':'python',
@@ -250,8 +252,26 @@ In short,  if *conditional_test*:
              print('\nName : ' + name.title())
              print('\nLanguage : ' + language.title())
  ```
- 
- 
+ - To omit duplicates during loops use a set as follows:
+ ```python
+     favorite_languages = {
+    'stephen':'python',
+    'jenn':'php',
+    'kevin':'c#',
+    'fred':'python',
+    'alvin':'c#',
+    'simon':'python',
+    'theodore':'python',
+    'fred':'haskel',
+    }
+
+
+     for language in set(favorite_languages.values()):
+         print(language.title())
+ #This line uses i in place of name
+     for i in set(favorite_languages.keys()):
+         print(i.title())
+ ```
 ##
 ## File Explanation
 ### *Slogan Randomizer*
