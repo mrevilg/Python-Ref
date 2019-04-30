@@ -212,7 +212,25 @@ In short,  if *conditional_test*:
     
     >>>blue
  ```
- You can start with an empty dictionary {}, and add dictionaryname['key'] = 'value'. Value can be modified by restating/redeclaring them.
+ You can start with an empty dictionary {}, and add dictionaryname['key'] = 'value'. Value can be modified by restating/redeclaring them. Also dictionaries can be appended in this manner.
+  ```python
+     alien_0 = {}
+     alien_0['color'] = 'green'
+     alien_0['points'] = 10
+     print(alien_0)
+
+     alien_0 = {'color' : 'blue', 'points' : 7}
+     print(alien_0)
+
+     alien_0['x_position'] = 0
+     alien_0['y_position'] = 25
+     print (alien_0)
+     
+  >>>{'color': 'green', 'points': 10}
+  >>>{'color': 'blue', 'points': 7}
+  >>>{'color': 'blue', 'points': 7, 'x_position': 0, 'y_position': 25}
+ 
+ ```
  
 ##
 ## File Explanation
