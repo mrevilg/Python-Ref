@@ -238,7 +238,7 @@ In short,  if *conditional_test*:
      favorite_languages = {
     'stephen':'python',
     'jenn':'php',
-    'kevin':'c#',
+    'kevin':['c#', 'python', 'haskel'],
     'fred':'haskel',
     }
 
