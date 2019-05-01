@@ -272,6 +272,9 @@ In short,  if *conditional_test*:
      for i in set(favorite_languages.keys()):
          print(i.title())
  ```
+
+### User Input and WHILE Loops
+
 ##
 ## File Explanation
 ### *Slogan Randomizer*
