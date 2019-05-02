@@ -288,8 +288,43 @@ In short,  if *conditional_test*:
    half_age = age / 2.0
    print('\nHalf your life ago you were ' + str(half_age) + ' years old!')      
  ```
- 
- 
+ - The while loop runs as long as a condition is true. It will loop until the condition is untrue (!=), a flag (read t/f god condition) or break are used.
+ ```python
+    #quit value
+    prompt = "Tell me something and I will repeat it back to you: "
+    prompt +="\nEnter 'quit' to end the program. "
+
+    message = ""
+    while message != 'quit':
+        message = input(prompt)
+        if message != 'quit':
+            print(message)
+
+    #flag value
+    prompt = "Again, tell me something and I will repeat it back to you: "
+    prompt +="\nEnter 'quit' to end the program. "
+
+    active = True
+    while active:
+        message = input(prompt)
+
+        if message == 'quit':
+            active = False
+        else:
+            print(message)
+
+    #break value
+    prompt = "Tell me the name of a citiy you'd like to visit: "
+    prompt +="\nEnter 'quit' to end the program. "
+
+    while True:
+        city = input(prompt)
+
+        if city == 'quit':
+            break
+        else:
+            print("\nI'd love to go to " + city.title() + "!")
+ ```
 ##
 ## File Explanation
 ### *Slogan Randomizer*
