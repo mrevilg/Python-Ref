@@ -277,14 +277,19 @@ In short,  if *conditional_test*:
 
 - input() runs the 'prompt' and awaits user input, this can be stored in a variable. Prompts should be clear, and can be stacked. By default these are seen as strings and therefore numbers must be converted using int().
  ```python
-    prompt = "If you tell us who you are, we can personalize the messages you see!"
-    prompt +="\nWhat is your first name? "
+   prompt = "If you tell us who you are, we can personalize the messages you see!"
+   prompt +="\nWhat is your first name? "
 
-    name = input(prompt)
-    print("\nHello, " + name + "!")
-    
-    
+   name = input(prompt)
+   print("\nHello, " + name + "!")
+
+   age = input('\nHow old are you? ')
+   age = int(age)
+   half_age = age / 2.0
+   print('\nHalf your life ago you were ' + str(half_age) + ' years old!')      
  ```
+ 
+ 
 ##
 ## File Explanation
 ### *Slogan Randomizer*
