@@ -275,13 +275,15 @@ In short,  if *conditional_test*:
 
 ### User Input and WHILE Loops
 
-- input() runs the 'prompt' and awaits user input, this can be stored in a variable. Prompts should be clear, and can be stacked.
+- input() runs the 'prompt' and awaits user input, this can be stored in a variable. Prompts should be clear, and can be stacked. By default these are seen as strings and therefore numbers must be converted using int().
  ```python
     prompt = "If you tell us who you are, we can personalize the messages you see!"
     prompt +="\nWhat is your first name? "
 
     name = input(prompt)
     print("\nHello, " + name + "!")
+    
+    
  ```
 ##
 ## File Explanation
