@@ -272,7 +272,7 @@ In short,  if *conditional_test*:
      for i in set(favorite_languages.keys()):
          print(i.title())
  ```
-
+##
 ### User Input and WHILE Loops
 
 - input() runs the 'prompt' and awaits user input, this can be stored in a variable. Prompts should be clear, and can be stacked. By default these are seen as strings and therefore numbers must be converted using int().
@@ -341,7 +341,7 @@ In short,  if *conditional_test*:
              # next line moves the calculation forward, so no infinite!
              x += 1
  ```
- 
+ ##
  #### WHILE Loops - Lists/Dictionaries
  - Do not manipulate lists whilst looping through them, use dicitionaries in this regard.
   ```python
@@ -389,7 +389,11 @@ In short,  if *conditional_test*:
     for name, response in responses.items():
         print(name + " would like to climb " + response + ".")
   ``` 
- 
+##
+### FUNCTIONS
+
+
+
 ##
 ## File Explanation
 ### *Slogan Randomizer*
