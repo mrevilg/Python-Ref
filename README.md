@@ -325,6 +325,71 @@ In short,  if *conditional_test*:
         else:
             print("\nI'd love to go to " + city.title() + "!")
  ```
+ - You can also use continue in a loop, but avoid infinite loops, constantly true.
+  ```python
+     current_number = 0
+     while current_number < 10:
+         current_number += 1
+         if current_number % 2 == 0:
+             continue
+
+         print(current_number)
+
+         x = 1
+         while x = <= 5:
+             print(x)
+             # next line moves the calculation forward, so no infinite!
+             x += 1
+ ```
+ 
+ #### WHILE Loops - Lists/Dictionaries
+ - Do not manipulate lists whilst looping through them, use dicitionaries in this regard.
+  ```python
+    unconfirmed_users = ['jim', 'fred', 'angus']
+   confirmed_users = []
+
+   while unconfirmed_users:
+       current_user = unconfirmed_users.pop()
+
+       print("Verifiying user: " + current_user.title())
+       confirmed_users.append(current_user)
+
+   print("\nThe following users have been confirmed:")
+
+   for confirmed_user in confirmed_users:
+       print(confirmed_user.title())
+
+
+   # To completely remove all instances of value
+
+   pets = ['dog', 'fish', 'cat', 'rabbit', 'dog', 'goldfish', 'cat']
+   print(pets)
+
+   while 'cat' in pets:
+       pets.remove('cat')
+
+   print(pets)
+ ``` 
+- You can also fill a dictionary with user input. 
+ ```python
+    responses = {}
+    polling_active = True
+
+    while polling_active:
+        name = input("\nWhat is your name? ")
+        response = input("\nWhat mountain would you like to climb one day? ")
+
+        responses[name] = response
+
+        repeat = input("\nWould you like to let another person respond? (yes/no) ")
+        if repeat == 'no':
+            polling_active = False
+
+    print("\n--- Poll Results ---")
+    for name, response in responses.items():
+        print(name + " would like to climb " + response + ".")
+  ``` 
+ 
 ##
 ## File Explanation
 ### *Slogan Randomizer*
