@@ -391,7 +391,23 @@ In short,  if *conditional_test*:
   ``` 
 ##
 ### FUNCTIONS
+- Function structure is simplistic. A Definitiion. Docstring. Code. Call. You can also pass information to a function via an Argument (information passed *from* a function like 'Jesse') or a Parameter (variable 'username' as shown below) as a piece of infomration *needed to perform* the function.
 
+ ```python
+   def greet_world():
+       """Display a simple greeting."""
+       print("Hello World!")
+
+   greet_world()
+
+   def greet_user_new(username):
+       """Display a simple greeting to a user."""
+       print("Hello, " + username.title() + "!")
+
+   greet_user_new('jesse')
+ 
+ ```
+ 
 
 
 ##
