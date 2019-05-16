@@ -416,12 +416,12 @@ In short,  if *conditional_test*:
       print("\nI have a " + animal_type + ".")
       print("My " + animal_type + "'s name is " + pet_name.title() + ".")
 
-   describe_pet('hamster', 'harry') #positionaL
+   describe_pet('hamster', 'harry') #positional
    describe_pet('dog','willy') #positional
    describe_pet(pet_name='harry', animal_type='hamster') #keyword
    describe_pet(animal_type='hamster', pet_name='harry') #keyword
  ```
-
+- Default values for parameters can be used if defined in function call. 'def some_variable(var_1, var_2='spam'):'. Default valuse must be listed after all non-default values, otherwise you'll impact positional arguments.
 
 ##
 ## File Explanation
