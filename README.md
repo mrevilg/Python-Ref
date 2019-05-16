@@ -407,7 +407,20 @@ In short,  if *conditional_test*:
    greet_user_new('jesse')
  
  ```
- 
+ - Positional Arguments: In same order as function definition. 'def some_variable(var_1, var_2):' i.e. ORDER MATTERS!!!
+ - Keyword Arguments: In any order but defined keyword and value.
+
+ ```python
+   def describe_pet(animal_type, pet_name):
+      """Display info about a pet"""
+      print("\nI have a " + animal_type + ".")
+      print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+
+   describe_pet('hamster', 'harry') #positionaL
+   describe_pet('dog','willy') #positional
+   describe_pet(pet_name='harry', animal_type='hamster') #keyword
+   describe_pet(animal_type='hamster', pet_name='harry') #keyword
+ ```
 
 
 ##
