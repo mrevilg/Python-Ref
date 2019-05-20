@@ -422,7 +422,19 @@ In short,  if *conditional_test*:
    describe_pet(animal_type='hamster', pet_name='harry') #keyword
  ```
 - Default values for parameters can be used if defined in function call. 'def some_variable(var_1, var_2='spam'):'. Default valuse must be listed after all non-default values, otherwise you'll impact positional arguments.
+- Optional values can be null in the definition, run an if loop to change the value.
 
+ ```python
+  def build_person(first_name, last_name, age=''):
+    """Return a dictionary of information about a person"""
+    person = {'first': first_name, 'last': last_name}
+    if age:
+        person['age'] = age
+    return person
+
+   musician = build_person('jimi', 'hendrix', age=27)
+   print(musician)
+ ```
 ##
 ## File Explanation
 ### *Slogan Randomizer*
