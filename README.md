@@ -435,6 +435,40 @@ In short,  if *conditional_test*:
    musician = build_person('jimi', 'hendrix', age=27)
    print(musician)
  ```
+ - Avoid infinite loops and use functions like:
+ ```python
+     def greet_world():
+         """Display a simple greeting."""
+         print("Hello World!")
+
+     greet_world()
+
+     def greet_user_new(username):
+         """Display a simple greeting to a user."""
+         print("Hello, " + username.title() + "!")
+
+     greet_user_new('jesse')
+
+     def get_formatted_name(first_name, last_name):
+         """Return a full name, neatly formatted"""
+         full_name = first_name + ' ' + last_name
+         return full_name.title()
+
+     while True:
+         print("\nPlease tell me your name: ")
+         print("\n(Enter 'q' at any time to quit)")
+
+         f_name = input("First name: ")
+         if f_name == 'q':
+             break
+         l_name = input("Last name: ")
+         if l_name == 'q':
+             break
+
+         formatted_name = get_formatted_name(f_name, l_name)
+         print("\nHello, " + formatted_name + "!")
+ ```
+ 
 ##
 ## File Explanation
 ### *Slogan Randomizer*
